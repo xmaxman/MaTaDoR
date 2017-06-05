@@ -24,10 +24,10 @@ reload(sys)
 sys.setdefaultencoding("utf-8")
 
 
-token = "388342734:AAEPhgz1KvS1vXz6yjQ-8hHrRhjt_Rxzs8Q"
+token = "342482965:AAG8qV2cOBVcGxYghOMW1pzwpRyunWGSsKo"
 bot = telebot.TeleBot(token)
 redis = redis.StrictRedis(host='localhost', port=6379, db=0)
-sudo = 338961804
+sudo = 315017219
 dos = 'moderation.json'
 
 f = "\n \033[01;30m Bot Firstname: {} \033[0m".format(bot.get_me().first_name)
